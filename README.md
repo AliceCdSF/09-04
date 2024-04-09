@@ -38,7 +38,11 @@ SELECT MAX(SALÁRIO) AS MAIOR_SALARIO FROM SALARIOS WHERE PROFISSÃO IN ('ATOR',
 
 
 
------
+
+
+
+
+
 --Soma idade de todos os alunos
 SELECT SUM(Idade) AS SOMA_IDADE
 FROM Alunos
@@ -81,7 +85,13 @@ FROM Alunos
 WHERE SEXO = 'M';
 
 
------------/
+
+
+
+
+
+
+
 --Média idade dos alunos que têm a letra "b" no nome
 SELECT AVG(idade) AS media_idade
 FROM alunos
@@ -115,7 +125,20 @@ WHERE nome LIKE '%a%' OR nome LIKE '%f%';
 
 
 
--------/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 --Idade máxima do sexo masculino que tem a letra "c" no nome
 SELECT MAX(idade) AS idade_maxima
 FROM alunos
